@@ -16,3 +16,34 @@ The last element to be visited takes you back to position zero.
 7. set perfectCycle flag to true if all index are visited &&  last visited index value == 0 (Start index).    
 8. Return perfectcycle flag.   
  
+ 
+ #### How to execute :
+- Rest endpoint : http://localhost:9080/api/v1/perfect-cycle
+- Sample Json Input :
+{
+    "inputSet" :[
+        {
+            "listName": "list2",
+            "listData": [0, 2 , 5]
+        },
+         {
+            "listName": "list3",
+            "listData":  [3,0,1,2]
+        },
+        {
+            "listName": "list4",
+            "listData":  [2,0,1]
+        },
+         {
+            "listName": "list",
+            "listData":  [1,2,3]
+        }
+    ]
+}
+- Output result :
+[
+    "list2 : perfect cycle : false",
+    "list3 : perfect cycle : true",
+    "list4 : perfect cycle : true",
+    "list : perfect cycle : false"
+]
