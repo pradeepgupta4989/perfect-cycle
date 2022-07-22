@@ -20,7 +20,9 @@ The last element to be visited takes you back to position zero.
  #### How to execute :
 - Rest endpoint : http://localhost:9080/api/v1/perfect-cycle
 - Sample Json Input :
-{
+
+```
+  {  
     "inputSet" :[
         {
             "listName": "list2",
@@ -47,3 +49,4 @@ The last element to be visited takes you back to position zero.
     "list4 : perfect cycle : true",
     "list : perfect cycle : false"
 ]
+```
