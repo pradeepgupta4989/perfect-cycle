@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alreadah.perfectcycle.service.PerfectCycleServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-21T19:50:14" hostname="DESKTOP-QDNQG5I" time="0.058">
+  <properties/>
+  <testcase name="testPerfectCycleFalseCase1()" classname="com.alreadah.perfectcycle.service.PerfectCycleServiceTest" time="0.041"/>
+  <testcase name="testPerfectCycleFalseCase2()" classname="com.alreadah.perfectcycle.service.PerfectCycleServiceTest" time="0.004"/>
+  <testcase name="testPerfectCycleTrueCase1()" classname="com.alreadah.perfectcycle.service.PerfectCycleServiceTest" time="0.006"/>
+  <testcase name="testPerfectCycleTrueCase2()" classname="com.alreadah.perfectcycle.service.PerfectCycleServiceTest" time="0.003"/>
+  <system-out><![CDATA[23:50:14.499 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Input request : [1, 2, 3]
+23:50:14.505 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Is prefect Cycle : false
+23:50:14.508 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Given Array : [1, 2, 3] , Perfect cycle exist : false
+23:50:14.518 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Input request : [0, 2, 5]
+23:50:14.518 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Is prefect Cycle : false
+23:50:14.518 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Given Array : [0, 2, 5] , Perfect cycle exist : false
+23:50:14.524 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Input request : [3, 0, 1, 2]
+23:50:14.524 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Is prefect Cycle : true
+23:50:14.525 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Given Array : [3, 0, 1, 2] , Perfect cycle exist : true
+23:50:14.530 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Input request : [2, 0, 1]
+23:50:14.530 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Is prefect Cycle : true
+23:50:14.530 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Given Array : [2, 0, 1] , Perfect cycle exist : true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

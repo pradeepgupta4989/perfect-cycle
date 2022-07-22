@@ -1,0 +1,12 @@
+s23:50:14.499 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Input request : [1, 2, 3]
+r23:50:14.505 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Is prefect Cycle : false
+è23:50:14.508 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Given Array : [1, 2, 3] , Perfect cycle exist : false
+s23:50:14.518 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Input request : [0, 2, 5]
+r23:50:14.518 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Is prefect Cycle : false
+è23:50:14.518 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Given Array : [0, 2, 5] , Perfect cycle exist : false
+v23:50:14.524 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Input request : [3, 0, 1, 2]
+q23:50:14.524 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Is prefect Cycle : true
+ë23:50:14.525 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Given Array : [3, 0, 1, 2] , Perfect cycle exist : true
+s23:50:14.530 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Input request : [2, 0, 1]
+q23:50:14.530 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Is prefect Cycle : true
+é23:50:14.530 [Test worker] INFO com.alraedah.perfectcycle.service.PerfectCycleService - Given Array : [2, 0, 1] , Perfect cycle exist : true
